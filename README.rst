@@ -6,32 +6,30 @@ This app enables you to convert powerpoint presentations (.pptx) into raw text l
 
 Usage:
 
-    to be determined
+to be determined
 
-	    Features
-	    --------
+Features
+--------
+- Customize head and tail of document
 
-	    - Customize head and tail of document
-	    - 
+Installation
+------------
 
-		Installation
-		------------
+Make sure to have python 2.7.
 
-		Make sure to have python 2.7.
+Install pynoter by running:
 
-		Install pynoter by running:
+pip install pynoter
 
-		    pip install pynoter
+Contribute
+----------
 
-		    Contribute
-		    ----------
-
-		    - Issue Tracker: https://github.com/maxrousseau/pynoter/issues
-		    - Source Code: https://github.com/maxrousseau/pynoter
+- Issue Tracker: https://github.com/maxrousseau/pynoter/issues
+- Source Code: https://github.com/maxrousseau/pynoter
 
 
-			License
-			-------
+License
+-------
 
-			The project is licensed under the MIT license.
+The project is licensed under the MIT license.
 			
