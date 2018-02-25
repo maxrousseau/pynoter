@@ -1,0 +1,5 @@
+from unittest import TestCase
+import pynoter
+
+class TestNotes(TestCase):
+    
