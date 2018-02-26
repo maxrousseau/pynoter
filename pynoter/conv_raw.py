@@ -1,4 +1,5 @@
 from pptx import Presentation
+from os.path import expanduser
 import os
 import json
 
@@ -62,8 +63,9 @@ class Powerpoint(object):
             ftp = ".org"
 
 
+        path = expanduser('~/.local/lib/python2.7/site-packages/pynoter/markup.json')
         newfile = self.title + ftp
-        hbt_data = '~.local/lib/python2.7/site-packages/pynoter/pynoter/markup.json'
+        hbt_data = path
 
         # load data head, body and tail strings
         with open(hbt_data) as f:

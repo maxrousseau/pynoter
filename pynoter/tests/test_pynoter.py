@@ -1,7 +1,9 @@
 import unittest 
 import filecmp 
+from os.path import expanduser
 import sys, os
-sys.path.insert(0, '~/.local/lib/python2.7/site-packages/pynoter/pynoter/')
+path = expanduser('~/.local/lib/python2.7/site-packages/pynoter/')
+sys.path.insert(0, path)
 import conv_raw
 
 class TestPowerpoint(unittest.TestCase):
