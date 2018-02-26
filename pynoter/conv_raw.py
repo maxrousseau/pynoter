@@ -63,7 +63,7 @@ class Powerpoint(object):
 
 
         newfile = self.title + ftp
-        hbt_data = '/home/max/Projects/pynoter/pynoter/markup.json'
+        hbt_data = '~.local/lib/python2.7/site-packages/pynoter/pynoter/markup.json'
 
         # load data head, body and tail strings
         with open(hbt_data) as f:
