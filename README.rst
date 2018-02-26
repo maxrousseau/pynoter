@@ -16,6 +16,7 @@ py-noter -p pptx_file -t new_file_name -ft latex
 
 Features
 --------
+
 - Create raw text org or Latex files from pptx presentations
 - Customize head and tail of document by changing JSON file
 
@@ -34,6 +35,10 @@ Contribute
 - Issue Tracker: https://github.com/maxrousseau/pynoter/issues
 - Source Code: https://github.com/maxrousseau/pynoter
 
+Todo
+----
+
+- Add text processing capabilities
 
 License
 -------
