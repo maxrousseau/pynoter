@@ -1,4 +1,5 @@
 from pptx import Presentation
+import os
 import json
 
 
@@ -62,7 +63,7 @@ class Powerpoint(object):
 
 
         newfile = self.title + ftp
-        hbt_data = 'markup.json'
+        hbt_data = '/home/max/Projects/pynoter/pynoter/markup.json'
 
         # load data head, body and tail strings
         with open(hbt_data) as f:
@@ -78,7 +79,7 @@ class Powerpoint(object):
         with open(newfile, 'w') as fobj:
             fobj.write(head)
             for slide in self.raw_text:
-                fobj.write(slide)
+                fobj.write(slide.encode('utf8'))
                 fobj.write(body)
             fobj.write(tail)
             

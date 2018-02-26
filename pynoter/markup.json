@@ -8,7 +8,7 @@
 {
     "language":"org",
     "head":"#+TITLE: tile\n#+AUTHOR: author\n\n",
-    "body":"#\\\\begin{center}\\includegraphics[width=0.5\\\\textwidth]{pdf\/**.pdf}\\end{center}\n",
+    "body":"#\\\\begin{center}\\includegraphics[width=0.5\\\\textwidth]{pdf\/**.pdf}\\end{center}\n\n",
     "tail":""
 }
 ]
