@@ -32,7 +32,7 @@ class Powerpoint(object):
             # list containing our raw text for a slide
             text_runs = []
             if self.filetype == 'org':
-                text_runs.append('#Slide '+slide_number+'\n'+'\n')
+                text_runs.append('# Slide '+slide_number+'\n'+'\n')
             if self.filetype == 'latex':
                 text_runs.append('%Slide '+slide_number+'\n'+'\n')
             slide_counter += 1

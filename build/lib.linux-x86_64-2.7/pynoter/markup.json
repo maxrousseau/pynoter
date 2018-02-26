@@ -1,14 +1,14 @@
 [
 {
     "language":"latex",
-    "head":"\\documentclass{article}\n\\usepackage[margin=1in]{geometry}\n\\usepackage{graphicx}\n\\usepackage{wrapfig}\n\n\\\\title{title}\n\\\\author{author}\n\\\\begin{document}\n\\maketitle\n\\\\tableofcontents\n\n\n",
-    "body":"%\\\\begin{center}\\includegraphics[width=0.5\\\\textwidth]{pdf\/**.pdf}\\end{center}\n",
+    "head":"\\documentclass{article}\n\\usepackage[margin=1in]{geometry}\n\\usepackage{graphicx}\n\\usepackage{wrapfig}\n\n\\title{title}\n\\author{author}\n\\begin{document}\n\\maketitle\n\\tableofcontents\n\n\n",
+    "body":"%\\begin{center}\\includegraphics[width=0.5\\textwidth]{pdf\/**.pdf}\\end{center}\n",
     "tail":"\n\\end{document}"
 },
 {
     "language":"org",
     "head":"#+TITLE: tile\n#+AUTHOR: author\n\n",
-    "body":"#\\\\begin{center}\\includegraphics[width=0.5\\\\textwidth]{pdf\/**.pdf}\\end{center}\n\n",
+    "body":"# \\begin{center}\\includegraphics[width=0.5\\textwidth]{pdf\/**.pdf}\\end{center}\n\n",
     "tail":""
 }
 ]
