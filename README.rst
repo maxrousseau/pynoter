@@ -20,14 +20,14 @@ Features
 - Create raw text org or Latex files from pptx presentations
 - Customize head and tail of document by changing JSON file
 
+Dependencies
+------------
+* python 2.7
+
 Installation
 ------------
 
-Make sure to have python 2.7.
-
-Install pynoter by running:
-
-pip install pynoter
+	$ pip install pynoter
 
 Contribute
 ----------
