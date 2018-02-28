@@ -8,17 +8,17 @@ Usage:
 
 Simply enter the following commands in your terminal:
 
-py-noter -p pptx_file -t new_file_name -ft org
+        $ py-noter -p pptx_file -t new_file_name -ft org
 
 or for a LaTeX document:
 
-py-noter -p pptx_file -t new_file_name -ft latex
+        $ py-noter -p pptx_file -t new_file_name -ft latex
 
 Features
 --------
 
 - Create raw text org or Latex files from pptx presentations
-- Customize head and tail of document by changing JSON file
+- Customize head, body and tail of document by changing JSON file
 
 Dependencies
 ------------
@@ -39,6 +39,7 @@ Todo
 ----
 
 - Add text processing capabilities
+- Add a progress bar
 
 License
 -------
