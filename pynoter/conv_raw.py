@@ -44,7 +44,7 @@ class Powerpoint(object):
                 if not shape.has_text_frame:
                     continue
 
-                # retriwve text from each paragraph and add to textrun list
+                # retrieve text from each paragraph and add to textrun list
                 for paragraph in shape.text_frame.paragraphs:
                     for run in paragraph.runs:
                         text_runs.append(run.text)
