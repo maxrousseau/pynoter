@@ -1,8 +1,9 @@
 #+TITLE: tile
 #+AUTHOR: author
 
-#Slide 1
+# Slide 1
 
 Test 
 
-#\\begin{center}\includegraphics[width=0.5\\textwidth]{pdf/**.pdf}\end{center}
+# \begin{center}\includegraphics[width=0.5\textwidth]{pdf/**.pdf}\end{center}
+

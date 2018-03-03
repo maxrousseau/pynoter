@@ -1,4 +1,4 @@
-import conv_raw
+from fcn import conv_raw
 import argparse
 import os
 
