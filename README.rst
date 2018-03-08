@@ -5,14 +5,15 @@ This app enables you to convert powerpoint presentations (.pptx) into raw text l
 (.tex) or org (.org) files for easy editing and note-taking to produce nice documents.
 
 Usage:
+------
 
 Simply enter the following commands in your terminal:
 
-py-noter -p pptx_file -t new_file_name -ft org
+    $ py-noter -p pptx_file -t new_file_name -ft org
 
 or for a LaTeX document:
 
-py-noter -p pptx_file -t new_file_name -ft latex
+    $ py-noter -p pptx_file -t new_file_name -ft latex
 
 Features
 --------
@@ -20,14 +21,15 @@ Features
 - Create raw text org or Latex files from pptx presentations
 - Customize head and tail of document by changing JSON file
 
+Dependencies
+------------
+
+* python 2.7
+
 Installation
 ------------
 
-Make sure to have python 2.7.
-
-Install pynoter by running:
-
-pip install pynoter
+    $ pip install pynoter
 
 Contribute
 ----------
