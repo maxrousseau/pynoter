@@ -15,9 +15,9 @@ path = str(args['path'])
 title = str(args['title'])
 filetype = str(args['filetype'])
 
-
 # call each method depending on the boolean value attributed
 def main():
     myppt = conv_raw.Powerpoint(path, title, filetype)
     myppt.slide_note()
     myppt.note_file()
+
