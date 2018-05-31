@@ -7,11 +7,11 @@ This app enables you to convert powerpoint presentations (.pptx) into raw text l
 Usage:
 
 Simply enter the following commands in your terminal:
-.. code-block :: shell
+
         $ py-noter -p pptx_file -t new_file_name -ft org
 
 or for a LaTeX document:
-.. code-block :: shell
+.. code-block :: sh
         $ py-noter -p pptx_file -t new_file_name -ft latex
 
 Features
