@@ -38,6 +38,8 @@ Contribute
 Todo
 ----
 
+- Fix text spacing issue 
+- Add markdown conversion
 - Add text processing capabilities
 - Add a progress bar
 
