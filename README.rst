@@ -11,7 +11,7 @@ Simply enter the following commands in your terminal:
         $ py-noter -p pptx_file -t new_file_name -ft org
 
 or for a LaTeX document:
-.. code-block :: sh
+
         $ py-noter -p pptx_file -t new_file_name -ft latex
 
 Features
@@ -26,7 +26,7 @@ Dependencies
 
 Installation
 ------------
-.. code-block :: shell
+
 	$ pip install pynoter
 
 Contribute
