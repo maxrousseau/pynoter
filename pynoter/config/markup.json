@@ -7,8 +7,14 @@
 },
 {
     "language":"org",
-    "head":"#+TITLE: tile\n#+AUTHOR: author\n\n",
+    "head":"#+title: tile\n#+author: author\n\n",
     "body":"# \\begin{center}\\includegraphics[width=0.5\\textwidth]{pdf\/**.pdf}\\end{center}\n\n",
+    "tail":""
+},
+{
+    "language":"md",
+    "head":"# <++>\n\n",
+    "body":"## <++>\n<++>\n\n",
     "tail":""
 }
 ]

@@ -21,3 +21,4 @@ def main():
     myppt.slide_note()
     myppt.note_file()
 
+main()

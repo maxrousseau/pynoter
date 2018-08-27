@@ -33,6 +33,8 @@ class Powerpoint(object):
             text_runs = []
             if self.filetype == 'org':
                 text_runs.append('# Slide '+slide_number+'\n'+'\n')
+            if self.filetype == 'md':
+                text_runs.append('<!---slide'+slide_number+'--->'+'\n')
             if self.filetype == 'latex':
                 text_runs.append('%Slide '+slide_number+'\n'+'\n')
             slide_counter += 1
@@ -61,9 +63,12 @@ class Powerpoint(object):
             ftp = ".tex"
         if self.filetype == 'org':
             ftp = ".org"
+        if self.filetype == 'md':
+            ftp = ".md"
 
 
-        path = expanduser('~/.local/lib/python2.7/site-packages/pynoter/config/markup.json')
+        #path = expanduser('~/.local/lib/python2.7/site-packages/pynoter/config/markup.json')
+        path = expanduser('~/Projects/pynoter/pynoter/config/markup.json')
         newfile = self.title + ftp
         hbt_data = path
 
@@ -76,16 +81,13 @@ class Powerpoint(object):
                 head = dict['head']
                 body = dict['body']
                 tail = dict['tail']
-            
+
         # create a new file with rawtext head body and tail
         with open(newfile, 'w') as fobj:
             fobj.write(head)
             for slide in self.raw_text:
-                fobj.write(slide.encode('utf8'))
                 fobj.write(body)
+                fobj.write(slide.encode('utf8'))
             fobj.write(tail)
-            
-        
-        
 
 

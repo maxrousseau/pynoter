@@ -1,5 +1,9 @@
 pynoter
 =======
+[![PyPI license](https://img.shields.io/pypi/l/pynoter.svg)](https://pypi.org/project/pynoter/)
+[![PyPI version fury.io](https://badge.fury.io/py/pynoter.svg)](https://pypi.org/project/pynoter/)
+[![PyPI pyversions](https://img.shields.io/pypi/pyversions/pynoter.svg)](https://pypi.org/project/pynoter/)
+<!---[![Build Status](https://travis-ci.org/maxrousseau/pfla.svg?branch=master)](https://travis-ci.org/maxrousseau/pfla)--->
 
 This app enables you to convert powerpoint presentations (.pptx) into
 raw text latex (.tex) or org (.org) files for easy editing and
@@ -43,7 +47,7 @@ Todo
 ----
 
 - [ ] Fix text spacing issue
-- [ ] Add markdown conversion
+- [x] Add markdown conversion
 - [ ] Add text processing capabilities
 - [ ] Add a progress bar
 
