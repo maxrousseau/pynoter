@@ -5,7 +5,7 @@ def readme():
         return f.read()
 
 setup(name='pynoter',
-      version='0.1.6',
+      version='0.1.7',
       description='Powerpoint presentations into org or tex files',
       long_description='Allows users to convert powerpoint presentations into raw text for editing in latex or org-mode',
       classifiers=['Programming Language :: Python :: 2.7', 'Topic :: Text Processing :: Markup :: LaTeX'],

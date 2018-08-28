@@ -1,3 +1,4 @@
 include README.rst
+include pynoter/fcn/*.py
 include pynoter/markup.json
 include pynoter/tests/markup.json
